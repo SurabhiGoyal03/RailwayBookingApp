@@ -19,7 +19,7 @@ import lombok.Setter;
 @Getter
 @Setter
 @NoArgsConstructor
-@Valid
+
 public class Agent {  // user database keyword
 	
 	@Id
@@ -33,7 +33,6 @@ public class Agent {  // user database keyword
 	@Column(nullable=false)
 	private String email;
 	@Column(nullable=false)
-	@Max(10)
 	private int phone;
 
 	

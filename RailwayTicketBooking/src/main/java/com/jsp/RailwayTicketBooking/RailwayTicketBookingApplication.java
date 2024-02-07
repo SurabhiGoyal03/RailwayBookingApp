@@ -11,9 +11,7 @@ public class RailwayTicketBookingApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(RailwayTicketBookingApplication.class, args);
 		
-		Agent agent = new Agent();
-		
-		
+				
 	}
 
 }
